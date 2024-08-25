@@ -163,11 +163,6 @@ public class MainActivity extends AppCompatActivity {
             dialog.show();
             return true;
         }
-        if(id == R.id.about) {
-            Intent intent = new Intent(this, AboutActivity.class);
-            startActivity(intent);
-            return true;
-        }
         else {
             return super.onOptionsItemSelected(item);
         }

@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Main Theme Colors -->
+    <color name="primary_color">#4CAF50</color> <!-- Green: Calming and user-friendly -->
+    <color name="primary_variant_color">#388E3C</color> <!-- Darker Green: Good for contrast with primary -->
+    <color name="on_primary_color">#FFFFFF</color> <!-- White: Ensures readability on primary color -->
 
-    <color name="vulcan">#121220</color>
-    <color name="web_orange">#F6A800</color>
-    <color name="jumbo_grey">#323641</color>
+    <color name="secondary_color">#FFC107</color> <!-- Amber: Warm and attention-grabbing -->
+    <color name="secondary_variant_color">#FFA000</color> <!-- Darker Amber: Provides contrast with secondary -->
+    <color name="on_secondary_color">#000000</color> <!-- Black: High contrast for readability on secondary color -->
+
+    <!-- Dark Theme Colors -->
+    <color name="dark_primary_color">#81C784</color> <!-- Light Green: Soft on dark backgrounds -->
+    <color name="dark_primary_variant_color">#4CAF50</color> <!-- Green: Consistent with primary color in light theme -->
+    <color name="dark_on_primary_color">#000000</color> <!-- Black: Ensures readability on dark primary color -->
+
+    <color name="dark_secondary_color">#FFD54F</color> <!-- Light Amber: Comfortable on dark backgrounds -->
+    <color name="dark_secondary_variant_color">#FFC107</color> <!-- Amber: Aligns with secondary color in light theme -->
+    <color name="dark_on_secondary_color">#000000</color> <!-- Black: Ensures readability on dark secondary color -->
+
+    <!-- Default Colors -->
+    <color name="default_thumb_color">#BDBDBD</color> <!-- Grey color for unselected state thumb -->
+    <color name="default_track_color">#9E9E9E</color> <!-- Light grey color for unselected state track -->
+
 </resources>

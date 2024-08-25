@@ -6,125 +6,148 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="31" />
-9-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml
+8-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:4:5-60:19
-12        android:allowBackup="true"
-12-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:5:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.1] /Users/melmathewpalana/.gradle/caches/transforms-3/3f2e5004198923d92eb696fa05e9698b/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:6:9-43
-16        android:label="@string/app_name"
-16-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:7:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:8:9-54
-18        android:supportsRtl="true"
-18-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:9:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.Mutex" >
-20-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:10:9-43
-21        <activity
-21-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:11:9-17:57
-22            android:name="com.example.mutex.ViewCredentialActivity"
-22-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:12:13-51
-23            android:label="View Credentials"
-23-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:13:13-45
-24            android:noHistory="true"
-24-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:14:13-37
-25            android:parentActivityName="com.example.mutex.MainActivity"
-25-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:15:13-55
-26            android:screenOrientation="portrait"
-26-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:16:13-49
-27            android:windowSoftInputMode="stateHidden" />
-27-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:17:13-54
-28        <activity
-28-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:18:9-23:52
-29            android:name="com.example.mutex.AddCredentialActivity"
-29-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:19:13-50
-30            android:label="Add Credentials"
-30-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:20:13-44
-31            android:noHistory="true"
-31-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:21:13-37
-32            android:parentActivityName="com.example.mutex.MainActivity"
-32-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:22:13-55
-33            android:screenOrientation="portrait" />
-33-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:23:13-49
-34        <activity
-34-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:24:9-30:57
-35            android:name="com.example.mutex.AccountSettingsActivity"
-35-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:25:13-52
-36            android:label="Account Settings"
-36-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:26:13-45
-37            android:noHistory="true"
-37-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:27:13-37
-38            android:parentActivityName="com.example.mutex.MainActivity"
-38-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:28:13-55
-39            android:screenOrientation="portrait"
-39-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:29:13-49
-40            android:windowSoftInputMode="stateHidden" />
-40-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:30:13-54
-41        <activity
-41-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:31:9-36:52
-42            android:name="com.example.mutex.AboutActivity"
-42-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:32:13-42
-43            android:label="About"
-43-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:33:13-34
-44            android:noHistory="true"
-44-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:34:13-37
-45            android:parentActivityName="com.example.mutex.MainActivity"
-45-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:35:13-55
-46            android:screenOrientation="portrait" />
-46-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:36:13-49
-47        <activity
-47-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:37:9-39:52
-48            android:name="com.example.mutex.MainActivity"
-48-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:38:13-41
-49            android:screenOrientation="portrait" />
-49-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:39:13-49
-50        <activity
-50-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:40:9-42:52
-51            android:name="com.example.mutex.LoginActivity"
-51-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:41:13-42
-52            android:screenOrientation="portrait" />
-52-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:42:13-49
-53        <activity
-53-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:43:9-48:52
-54            android:name="com.example.mutex.RegisterActivity"
-54-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:44:13-45
-55            android:label="Registration"
-55-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:45:13-41
-56            android:noHistory="true"
-56-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:46:13-37
-57            android:parentActivityName="com.example.mutex.LoginActivity"
-57-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:47:13-56
-58            android:screenOrientation="portrait" />
-58-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:48:13-49
-59        <activity
-59-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:49:9-59:20
-60            android:name="com.example.mutex.PinActivity"
-60-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:50:13-40
-61            android:exported="true"
-61-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:52:13-36
-62            android:noHistory="true"
-62-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:51:13-37
-63            android:screenOrientation="portrait" >
-63-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:53:13-49
-64            <intent-filter>
-64-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:54:13-58:29
-65                <action android:name="android.intent.action.MAIN" />
-65-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:55:17-69
-65-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:55:25-66
-66
-67                <category android:name="android.intent.category.LAUNCHER" />
-67-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:57:17-77
-67-->/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:57:27-74
-68            </intent-filter>
-69        </activity>
-70    </application>
-71
-72</manifest>
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/asnvir/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.mutex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/asnvir/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/asnvir/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.mutex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/asnvir/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/asnvir/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:4:5-58:19
+18        android:allowBackup="true"
+18-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /home/asnvir/.gradle/caches/transforms-3/55dedc70b95a473650eda30d4efd0f99/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:label="@string/app_name"
+21-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:6:9-41
+22        android:supportsRtl="true"
+22-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:7:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.SecureVault" >
+24-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:8:9-49
+25        <activity
+25-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:9:9-15:57
+26            android:name="com.example.mutex.ViewCredentialActivity"
+26-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:10:13-51
+27            android:label="View Credentials"
+27-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:11:13-45
+28            android:noHistory="true"
+28-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:12:13-37
+29            android:parentActivityName="com.example.mutex.MainActivity"
+29-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:13:13-55
+30            android:screenOrientation="portrait"
+30-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:14:13-49
+31            android:windowSoftInputMode="stateHidden" />
+31-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:15:13-54
+32        <activity
+32-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:16:9-21:52
+33            android:name="com.example.mutex.AddCredentialActivity"
+33-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:17:13-50
+34            android:label="Add Credentials"
+34-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:18:13-44
+35            android:noHistory="true"
+35-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:19:13-37
+36            android:parentActivityName="com.example.mutex.MainActivity"
+36-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:20:13-55
+37            android:screenOrientation="portrait" />
+37-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:21:13-49
+38        <activity
+38-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:22:9-28:57
+39            android:name="com.example.mutex.AccountSettingsActivity"
+39-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:23:13-52
+40            android:label="Account Settings"
+40-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:24:13-45
+41            android:noHistory="true"
+41-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:25:13-37
+42            android:parentActivityName="com.example.mutex.MainActivity"
+42-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:26:13-55
+43            android:screenOrientation="portrait"
+43-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:27:13-49
+44            android:windowSoftInputMode="stateHidden" />
+44-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:28:13-54
+45        <!-- <activity -->
+46        <!-- android:name=".AboutActivity" -->
+47        <!-- android:label="About" -->
+48        <!-- android:noHistory="true" -->
+49        <!-- android:parentActivityName=".MainActivity" -->
+50        <!-- android:screenOrientation="portrait" /> -->
+51        <activity
+51-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:35:9-37:52
+52            android:name="com.example.mutex.MainActivity"
+52-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:36:13-41
+53            android:screenOrientation="portrait" />
+53-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:37:13-49
+54        <activity
+54-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:38:9-40:52
+55            android:name="com.example.mutex.LoginActivity"
+55-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:39:13-42
+56            android:screenOrientation="portrait" />
+56-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:40:13-49
+57        <activity
+57-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:41:9-46:52
+58            android:name="com.example.mutex.RegisterActivity"
+58-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:42:13-45
+59            android:label="Registration"
+59-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:43:13-41
+60            android:noHistory="true"
+60-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:44:13-37
+61            android:parentActivityName="com.example.mutex.LoginActivity"
+61-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:45:13-56
+62            android:screenOrientation="portrait" />
+62-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:46:13-49
+63        <activity
+63-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:47:9-57:20
+64            android:name="com.example.mutex.PinActivity"
+64-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:48:13-40
+65            android:exported="true"
+65-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:50:13-36
+66            android:noHistory="true"
+66-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:49:13-37
+67            android:screenOrientation="portrait" >
+67-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:51:13-49
+68            <intent-filter>
+68-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:52:13-56:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:53:17-69
+69-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:53:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:55:17-77
+71-->/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/src/main/AndroidManifest.xml:55:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+77            android:authorities="com.example.mutex.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.2.0] /home/asnvir/.gradle/caches/transforms-3/69262e6e1ef2f549fc8371faf15c8c5f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/asnvir/.gradle/caches/transforms-3/d792cfc6337e3c8fbac3183f5288f77a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/asnvir/.gradle/caches/transforms-3/d792cfc6337e3c8fbac3183f5288f77a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/asnvir/.gradle/caches/transforms-3/d792cfc6337e3c8fbac3183f5288f77a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+85        </provider>
+86    </application>
+87
+88</manifest>

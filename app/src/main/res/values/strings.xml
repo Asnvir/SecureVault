@@ -1,6 +1,44 @@
 <resources>
-    <string name="app_name">Mutex</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">SecureVault</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="current_account">Current Account:</string>
+    <string name="name">Name</string>
+    <string name="username_email">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="total_credentials_saved">Total credentials saved:</string>
+    <string name="log_out">Log Out</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="discard_changes">Discard Changes</string>
+    <string name="label">Label</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_4_digit_pin">Enter your 4 digit pin</string>
+    <string name="enter_pin_here">Enter pin here</string>
+    <string name="forgot_pin">Forgot Pin?</string>
+    <string name="choose_a_4_digit_pin">Choose a 4 digit pin</string>
+    <string name="this_pin_will_be_used_as_security_measure_to_prevent_unauthorized_access">This pin will be used as security measure to prevent unauthorized access.</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+    <string name="no_entries_yet">No entries yet.</string>
+    <string name="please_click_the_button_on_the_lower_right_to_add">Please click the button on the lower-right to add.</string>
+    <string name="type_a_password">Type a password:</string>
+    <string name="please_put_password_first">Please put password first</string>
+    <string name="results">Results:</string>
+    <string name="uppercase_letters_a_z">Uppercase letters: A-Z</string>
+    <string name="lowercase_letters_a_z">Lowercase letters: a-z</string>
+    <string name="numbers_0_9">Numbers: 0-9</string>
+    <string name="symbols">Symbols: ~`!@</string>
+    <string name="check_password_strength">Check Password Strength</string>
+    <string name="reset">Reset</string>
+    <string name="generate_secure_password">Generate Secure Password:</string>
+    <string name="click_generate_first">Click generate first</string>
+    <string name="advanced_options">Advanced Options:</string>
+    <string name="length">Length:</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="reset_entries">Reset Entries</string>
 
     <string-array name="changeProfile">
         <item>Change to male</item>

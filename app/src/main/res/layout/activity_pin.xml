@@ -6,29 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".PinActivity">
 
-    <ImageView
-        android:id="@+id/iv_logo3"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="22dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
 
-    <ImageView
-        android:id="@+id/iv_mutex3"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="22dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/iv_logo3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mutex" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/sw_darkMode2"
@@ -36,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-light"
-        android:text="Dark Mode"
+        android:text="@string/dark_mode"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
             android:fontFamily="sans-serif-light"
-            android:text="Enter your 4 digit pin"
+            android:text="@string/enter_your_4_digit_pin"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -71,7 +49,7 @@
             android:background="@drawable/button_bg"
             android:ems="10"
             android:gravity="center"
-            android:hint="Enter pin here"
+            android:hint="@string/enter_pin_here"
             android:inputType="number|textPassword"
             android:maxLength="4"
             android:paddingTop="10dp"
@@ -92,7 +70,8 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/et_pin2"
-            app:srcCompat="@drawable/abc_vector_test" />
+            app:srcCompat="@drawable/abc_vector_test"
+            app:backgroundTint="@color/primary_color"/>
 
         <TextView
             android:id="@+id/tv_forgotPin"
@@ -104,9 +83,9 @@
             android:fontFamily="sans-serif-light"
             android:onClick="forgotPin"
             android:padding="10dp"
-            android:text="Forgot Pin?"
-            android:textColorHighlight="@color/web_orange"
-            android:textColorLink="@color/web_orange"
+            android:text="@string/forgot_pin"
+            android:textColorHighlight="@color/primary_color"
+            android:textColorLink="@color/primary_color"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
             android:fontFamily="sans-serif-light"
-            android:text="Choose a 4 digit pin"
+            android:text="@string/choose_a_4_digit_pin"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -148,7 +127,7 @@
             android:gravity="center"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:text="This pin will be used as security measure to prevent unauthorized access."
+            android:text="@string/this_pin_will_be_used_as_security_measure_to_prevent_unauthorized_access"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -162,7 +141,7 @@
             android:background="@drawable/button_bg"
             android:ems="10"
             android:gravity="center"
-            android:hint="Enter pin here"
+            android:hint="@string/enter_pin_here"
             android:inputType="number|textPassword"
             android:maxLength="4"
             android:paddingTop="10dp"
@@ -183,7 +162,8 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/et_pin"
-            app:srcCompat="@drawable/abc_vector_test" />
+            app:srcCompat="@drawable/abc_vector_test"
+            app:backgroundTint="@color/primary_color"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

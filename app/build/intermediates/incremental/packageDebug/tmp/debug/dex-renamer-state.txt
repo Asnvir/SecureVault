@@ -1,4 +1,4 @@
-#Mon May 29 17:29:55 PST 2023
-base.0=/Users/melmathewpalana/AndroidStudioProjects/Mutex/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Aug 25 21:49:46 IDT 2024
+base.0=/home/asnvir/Programming/ProgrammingProjects/AndroidStudioProjects/Mutex/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
